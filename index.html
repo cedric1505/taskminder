@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TaskMinder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>TaskMinder</h1>
+        
+        <div id="auth-section">
+            <input type="text" id="username" placeholder="Username">
+            <input type="password" id="password" placeholder="Password">
+            <button onclick="register()">Register</button>
+            <button onclick="login()">Login</button>
+        </div>
+
+        <div id="dashboard-section" style="display:none;">
+            <div class="header">
+                <h3 id="welcome-msg"></h3>
+                <button onclick="logout()" class="btn-logout">Logout</button>
+            </div>
+            
+            <div class="input-group">
+                <input type="text" id="task-title" placeholder="New Task...">
+                <select id="task-priority">
+                    <option value="Low">Low</option>
+                    <option value="Medium" selected>Medium</option>
+                    <option value="High">High</option>
+                </select>
+                <button onclick="addTask()">Add</button>
+            </div>
+
+            <ul id="task-list"></ul>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
