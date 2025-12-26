@@ -2,9 +2,9 @@
 A lightweight, full-stack task management application built to demonstrate CRUD operations and secure user authentication. Designed as a personal productivity tool to track daily tasks with priority levels.   
 
 🚀 Key Features
-User Authentication: Secure Login and Registration using JWT (JSON Web Tokens) and bcrypt password hashing.   
+User Authentication: Secure Login and Registration using JWT (JSON Web Tokens) and bcrypt password hashing.
 Task Management: Add and Delete tasks dynamically.
-Priority System: Categorize tasks by urgency (Low, Medium, High).   
+Priority System: Categorize tasks by urgency (Low, Medium, High).
 Persistent Data: All data is stored securely in MongoDB.
 Responsive UI: Clean, minimalist interface built with Vanilla JS and CSS.
 
@@ -34,3 +34,5 @@ Start the server:
 Bash
 npm start
 Open http://localhost:5000 in your browser.
+
+
